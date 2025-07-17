@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>
+   Index - Techie Bootstrap Template
+  </title>
+<meta content="" name="description"/>
+<meta content="" name="keywords"/>
+<!-- Favicons -->
+<link href="assets/img/favicon.png" rel="icon"/>
+<link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"/>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<!-- Vendor CSS Files -->
+<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet"/>
+<link href="assets/vendor/aos/aos.css" rel="stylesheet"/>
+<link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet"/>
+<link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"/>
+<!-- Main CSS File -->
+<link href="assets/css/main_gopro_final_FINAL.css" rel="stylesheet"/>
+</head>
+  
+<body class="index-page dark-background">
+  <header class="header d-flex align-items-center fixed-top" id="header" style="width: 100%; overflow-x: hidden;">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between" style="max-width: 100%;">
+
+      <!-- Marca Baker -->
+      <a class="logo d-flex align-items-center me-auto" href="index.html" style="text-decoration: none;">
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <span style="font-size: 22px; font-weight: bold; color: white; white-space: nowrap;">
+          Baker Skateboards
+        </span>
+      </a>
+
+      <!-- Menú de navegación -->
+      <nav class="navmenu" id="navmenu">
+        <ul>
+          <li><a class="active" href="#hero">Inicio</a></li>
+          <li><a href="#services">Datos</a></li>
+          <li><a href="#about">Mucho más</a></li>
+          <li><a href="#portfolio">Elegí tu diseño</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+<!-- Hero Section -->
+<section class="hero-gopro" id="hero" style="background-color: #0b0b0b; color: #fff; padding: 200px 0; position: relative; overflow: hidden;">
+  <div class="container position-relative" style="z-index: 2;">
+    
+    <!-- Imagen a la derecha (desktop) / abajo (mobile) -->
+    <img id="skate-img" alt="Skate" src="assets/img/tapa1.png" style="
+      position: absolute;
+      top: 70%;
+      right: 10%;
+      transform: translateY(-50%);
+      max-height: 600px;
+      z-index: 1;
+      pointer-events: none;
+    "/>
+
+    <div class="row justify-content-start">
+      <div class="col-lg-6 position-relative text-start" style="z-index: 2;">
+        <!-- Título principal -->
+        <h1 class="hero-title">Precisión en cada truco</h1>
+        <!-- Subtítulo -->
+        <p class="hero-subtitle">Precisión real en el modelo Skate Street/Park, donde forma y función se equilibran al máximo.</p>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    .hero-title {
+      font-size: 55px;
+      font-weight: 900;
+    }
+
+    .hero-subtitle {
+      font-size: 18px;
+      margin-top: 15px;
+    }
+
+    @media (max-width: 768px) {
+      #skate-img {
+        position: relative !important;
+        top: auto !important;
+        right: auto !important;
+        transform: none !important;
+        display: block;
+        margin: 30px auto 0 auto;
+        max-width: 100%;
+        height: auto;
+      }
+
+      .hero-title {
+        text-align: center;
+        font-size: 34px !important;
+      }
+
+      .hero-subtitle {
+        text-align: center;
+        font-size: 16px !important;
+      }
+
+      .hero-gopro .text-start {
+        text-align: center !important;
+      }
+    }
+  </style>
+</section>
+
+
+
+<!-- Services Section -->
+<!-- Services Section -->
+<!-- Estilos -->
+<!-- Bloque de estilos (ubicado en <head> o al inicio del <body>) -->
+<style>
+  /* Efecto hover para agrandar el ícono al pasar el cursor */
+  .icon-colored {
+  transition: transform 0.3s ease;
+  filter: invert(24%) sepia(89%) saturate(2161%) hue-rotate(205deg) brightness(92%) contrast(95%);
+}
+  .icon-colored:hover {
+    transform: scale(1.3);
+  }
+  .icon {
+    background: none !important;
+  }
+</style>
+
+<!-- Sección de servicios -->
+<section class="services section" id="services" style="padding: 100px 0;">
+  <div class="container">
+    <div class="row gy-4 justify-content-center">
+      
+      <!-- Ítem 1 -->
+      <div class="col-xl-4 col-lg-6 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-item d-flex flex-column align-items-center text-light text-center" style="max-width: 300px;">
+          <div class="icon mb-3 d-flex align-items-center justify-content-center">
+            <!-- Cambiá width y height para modificar permanentemente el tamaño -->
+            <img alt="Resistente" class="icon-colored" src="assets/img/resistente.png" style="width: 60px; height: 60px;" />
+          </div>
+          <h4 class="title">Resistente</h4>
+          <p class="description">Diseñado para aguantar impactos, desgaste y cualquier truco.</p>
+        </div>
+      </div>
+
+      <!-- Ítem 2 -->
+      <div class="col-xl-4 col-lg-6 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-item d-flex flex-column align-items-center text-light text-center" style="max-width: 300px;">
+          <div class="icon mb-3 d-flex align-items-center justify-content-center">
+            <!-- Puedes ajustar el tamaño aquí también -->
+            <img alt="Ligero" class="icon-colored" src="assets/img/ligero.png" style="width: 60px; height: 60px;" />
+          </div>
+          <h4 class="title">Ligero</h4>
+          <p class="description">Su peso reducido te da más control en el aire y velocidad en cada movimiento.</p>
+        </div>
+      </div>
+
+      <!-- Ítem 3 -->
+      <div class="col-xl-4 col-lg-6 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="300">
+        <div class="service-item d-flex flex-column align-items-center text-light text-center" style="max-width: 300px;">
+          <div class="icon mb-3 d-flex align-items-center justify-content-center">
+            <!-- Modificá el tamaño aquí para "Preciso" -->
+            <img alt="Preciso" class="icon-colored" src="assets/img/preciso.png" style="width: 60px; height: 60px;" />
+          </div>
+          <h4 class="title">Preciso</h4>
+          <p class="description">Responde con exactitud a cada movimiento, ideal para pulir truco.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- ABOUT con fondo negro ajustado -->
+<!-- Sección VISIÓN SIN LÍMITES (fondo negro + skate sobresaliendo) -->
+<!-- Sección VISIÓN SIN LÍMITES (fondo negro + skate sobresaliendo) -->
+<section class="about-section position-relative" id="about" style="background-color: #0b0b0b; padding: 100px 0; z-index: 1;">
+  <div class="container position-relative" style="z-index: 2;">
+    <div class="row align-items-center gy-4">
+
+      <!-- Texto a la izquierda, justificado -->
+      <div class="col-lg-6 order-2 order-lg-1 text-light text-start" data-aos="fade-up" data-aos-delay="200">
+        <h2 class="about-title">
+          Mucho más que una tabla
+        </h2>
+        <p class="about-text">
+          Más que una tabla, es una herramienta de precisión. Diseñada para ofrecer control, respuesta y durabilidad en cada maniobra.
+        </p>
+      </div>
+
+      <!-- Imagen del skate -->
+      <div class="col-lg-6 order-1 order-lg-2 text-center position-relative">
+        <img alt="Skate" data-aos="fade-up" data-aos-delay="100" src="assets/img/f93e4522-b941-4b85-8970-a8e9e1c1ea75.png" style="
+          width: 100%;
+          max-width: 500px;
+          position: relative;
+          z-index: 5;
+        "/>
+      </div>
+
+    </div>
+  </div>
+
+  <style>
+    .about-title {
+      font-size: 55px;
+      font-weight: 800;
+      text-align: left;
+    }
+
+    .about-text {
+      font-size: 16px;
+      font-weight: 300;
+      text-align: justify;
+    }
+
+    @media (max-width: 768px) {
+      .about-title {
+        font-size: 36px;
+        text-align: center;
+      }
+
+      .about-text {
+        font-size: 15px;
+        text-align: center;
+        padding: 0 10px;
+      }
+
+      .about-section .text-start {
+        text-align: center !important;
+      }
+    }
+  </style>
+</section>
+
+<!-- Sección HECHA PARA LA ACCIÓN (fondo blanco, skate se superpone desde arriba) -->
+<style>
+  .icon-white {
+  filter: brightness(0) invert(1);
+}
+
+.icon-box {
+  background-color: #1F3A93 !important;
+  width: 64px;
+  height: 64px;
+  border-radius: 12px;
+  border: 2px solid #1F3A93;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+</style>
+
+<section class="features section" id="features" style="background-color: #f5f5f5; padding: 100px 0; margin-top: -60px; color: #000;">
+  <div class="container">
+    <!-- Título -->
+    <div class="section-title text-center mb-5" data-aos="fade-up">
+      <h2 style="color: #000; font-size: 36px; font-weight: 800;">
+        Tecnología sobre ruedas
+      </h2>
+      <p style="color: #000;">
+        Todo lo que necesitás saber sobre este setup street/park
+      </p>
+    </div>
+
+<div class="row gy-5 align-items-center">
+  <!-- Columna izquierda -->
+  <div class="col-lg-4 d-flex flex-column justify-content-center">
+    <div class="features-item d-flex mb-5" data-aos="fade-up" data-aos-delay="200">
+      <div class="icon me-3 d-flex align-items-center justify-content-center icon-box">
+        <img src="assets/img/skate.png" class="img-fluid icon-white" style="width: 32px; height: 32px;" />
+      </div>
+      <div>
+        <h4 style="color: #000;">Tamaño</h4>
+        <p style="color: #000;">8.0&quot; x 31.75&quot;, ideal para trucos técnicos.</p>
+      </div>
+    </div>
+
+    <div class="features-item d-flex mb-5" data-aos="fade-up" data-aos-delay="300">
+      <div class="icon me-3 d-flex align-items-center justify-content-center icon-box">
+        <img alt="Ruedas" class="img-fluid icon-white" src="assets/img/ruedas.png" style="width: 32px; height: 32px;" />
+      </div>
+      <div>
+        <h4 style="color: #000;">Ruedas</h4>
+        <p style="color: #000;">52mm 99A, ideales para calle y rampas.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Imagen central -->
+  <div class="col-lg-4 text-center" data-aos="fade-up" data-aos-delay="100">
+    <img alt="Skate" class="img-fluid" id="skate-central" src="assets/img/uwu2.png" style="max-height: 500px; margin-top: -40px;" />
+  </div>
+
+  <!-- Columna derecha -->
+  <div class="col-lg-4 d-flex flex-column justify-content-center">
+    <div class="features-item d-flex mb-5" data-aos="fade-up" data-aos-delay="400">
+      <div class="icon me-3 d-flex align-items-center justify-content-center icon-box">
+        <img alt="Trucks" class="img-fluid icon-white" src="assets/img/trucks.png" style="width: 32px; height: 32px;" />
+      </div>
+      <div>
+        <h4 style="color: #000;">Trucks</h4>
+        <p style="color: #000;">Independents 139, livianos y resistentes.</p>
+      </div>
+    </div>
+
+    <div class="features-item d-flex mb-5" data-aos="fade-up" data-aos-delay="500">
+      <div class="icon me-3 d-flex align-items-center justify-content-center icon-box">
+        <img alt="Rulemanes" class="img-fluid icon-white" src="assets/img/rulemanes.png" style="width: 32px; height: 32px;" />
+      </div>
+      <div>
+        <h4 style="color: #000;">Rulemanes</h4>
+        <p style="color: #000;">ABEC-7, veloces y resistentes para todo.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+</section>
+
+</main>
+</body>
+</html>
+<!-- /Features Section -->
+<!-- Testimonials Section -->
+<!-- Portfolio Section -->
+<section class="portfolio section" id="portfolio">
+  <div class="container section-title text-color" data-aos="fade-up">
+    <h2 class="portfolio-title">Diseños que hablan por vos</h2>
+    <p class="portfolio-subtitle">Diseñados para destacar, combinan estilo, rendimiento y personalidad.</p>
+  </div>
+
+  <div class="container">
+    <div class="swiper portfolio-slider position-relative">
+      <div class="swiper-wrapper">
+
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <div class="text-center">
+            <a class="glightbox" href="assets/img/skata1.png" data-gallery="portfolio-gallery-app">
+              <img src="assets/img/skata1.png" class="img-fluid" style="max-height: 500px; width: auto; object-fit: contain;" alt="Mark Gonzales">
+            </a>
+            <h4 class="mt-3">Mark Gonzales</h4>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="text-center">
+            <a class="glightbox" href="assets/img/skata.2.png" data-gallery="portfolio-gallery-app">
+              <img src="assets/img/skata.2.png" class="img-fluid" style="max-height: 500px; width: auto; object-fit: contain;" alt="Steve Caballero">
+            </a>
+            <h4 class="mt-3">Steve Caballero</h4>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="text-center">
+            <a class="glightbox" href="assets/img/skata3.png" data-gallery="portfolio-gallery-app">
+              <img src="assets/img/skata3.png" class="img-fluid" style="max-height: 500px; width: auto; object-fit: contain;" alt="Tony Hawk">
+            </a>
+            <h4 class="mt-3">Tony Hawk</h4>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="text-center">
+            <a class="glightbox" href="assets/img/skata2.png" data-gallery="portfolio-gallery-app">
+              <img src="assets/img/skata2.png" class="img-fluid" style="max-height: 500px; width: auto; object-fit: contain;" alt="Rodney Mullen">
+            </a>
+            <h4 class="mt-3">Rodney Mullen</h4>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Flechas solo en mobile -->
+      <div class="swiper-button-prev d-lg-none"></div>
+      <div class="swiper-button-next d-lg-none"></div>
+    </div>
+  </div>
+
+  <style>
+    @media (min-width: 992px) {
+      .portfolio-slider .swiper-wrapper {
+        display: flex !important;
+        flex-wrap: nowrap;
+      }
+
+      .portfolio-slider .swiper-slide {
+        width: 25% !important;
+        flex-shrink: 0;
+      }
+
+      .swiper-button-next,
+      .swiper-button-prev {
+        display: none !important;
+      }
+    }
+  </style>
+
+  <script>
+    new Swiper('.portfolio-slider', {
+      loop: false,
+      spaceBetween: 30,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      breakpoints: {
+        0: {
+          slidesPerView: 1
+        },
+        768: {
+          slidesPerView: 2
+        },
+        992: {
+          slidesPerView: 4
+        }
+      }
+    });
+  </script>
+</section>
+
+
+<!-- /Portfolio Section -->
+<!-- Pricing Section -->
+<!-- /Pricing Section -->
+<!-- Faq Section -->
+<section class="faq section" id="faq">
+<!-- Section Title -->
+<!-- /Faq Section -->
+<!-- Team Section -->
+<section class="team section" id="team" style="background-color: #111; padding: 0; margin: 0; position: relative; overflow: hidden;">
+  
+  <!-- Contenido arriba de la imagen -->
+  <div class="container" style="padding: 00px 0; z-index: 2; position: relative;">
+    <div class="row gy-4">
+      <!-- Miembro 1 -->
+      
+      <!-- Miembro 2 -->
+      
+      <!-- Miembro 3 -->
+      
+      <!-- Miembro 4 -->
+      
+    </div>
+  </div>
+
+  <!-- Imagen al fondo abajo -->
+  <div style="width: 100%; position: relative; z-index: 1;">
+    <img src="assets/img/final2.png" alt="Skate fondo" style="width: 100%; height: auto; display: block;" />
+  </div>
+</section>
+
+<!-- Contact Section -->
+<footer class="footer" id="footer">
+  <style>
+    @media (max-width: 767px) {
+      .footer .text-md-start,
+      .footer .footer-about,
+      .footer .footer-links,
+      .footer .footer-contact {
+        text-align: left !important;
+      }
+    }
+  </style>
+  <div class="container footer-top">
+    <div class="row gy-4">
+
+      <!-- Columna: Baker skateboards -->
+      <div class="col-lg-5 col-md-12 footer-about">
+        <a class="logo d-flex align-items-center" href="index.html">
+          <span class="sitename"></span>
+        </a>
+        <p>
+          <strong style="font-size: 24px; font-weight: 900; display: block; margin-bottom: 10px;">
+            Baker skateboards
+          </strong>
+        </p>
+        <p>
+          Impulsar la cultura del skate con productos que acompañen cada truco, caída y progreso. Creemos en la libertad, la actitud y el estilo propio como motores de expresión.
+        </p>
+      </div>
+
+      <!-- Columna: Vacía -->
+      
+
+      <!-- Columna: Links útiles -->
+      <div class="col-lg-2 col-6 footer-links">
+        <h4>Links útiles</h4>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Datos</a></li>
+          <li><a href="#">Visión sin límites</a></li>
+          <li><a href="#">Elegí tu diseño</a></li>
+        </ul>
+      </div>
+
+      <!-- Columna: Contacto -->
+      <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+        <h4>Contactanos</h4>
+        <p>Tinogasta 5276</p>
+        <p>Villa Devoto, CABA.</p>
+        <p>Argentina</p>
+        <p class="mt-4">
+          <strong>Teléfono:</strong>
+          <span>+54 911 2285-3594</span>
+        </p>
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+
+<!-- Scroll Top -->
+<a class="scroll-top d-flex align-items-center justify-content-center" href="#" id="scroll-top">
+<i class="bi bi-arrow-up-short">
+</i>
+</a>
+<!-- Preloader -->
+<div id="preloader">
+</div>
+<!-- Vendor JS Files -->
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js">
+</script>
+<script src="assets/vendor/php-email-form/validate.js">
+</script>
+<script src="assets/vendor/aos/aos.js">
+</script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js">
+</script>
+<script src="assets/vendor/purecounter/purecounter_vanilla.js">
+</script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js">
+</script>
+<script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js">
+</script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js">
+</script>
+<!-- Main JS File -->
+<script src="assets/js/main.js">
+</script>
+</section>
+<script>
+  window.addEventListener('scroll', () => {
+    document.body.classList.add('scrolled');
+  }, { once: true });
+</script>
